@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: aqua;
+}
+#headersection{
+    padding: 10px;
+}
+.name{
+    text-align: center;
+}
+.password{
+    text-align: inherit;
+}

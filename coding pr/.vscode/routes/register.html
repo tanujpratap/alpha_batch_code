@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online voting systemn</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>online voting system</h1>
+    <hr>
+    <h2>registeration</h2>
+    <form action="api/register.php" method="post">
+        <div class="container">
+            <div class="name">
+                <label for="name">Name</label>
+                <input type="text" name=" name" placeholder="enter name">
+            </div>
+            <div class="number">
+                <label for="mobile">mobile number</label>
+                <input type="text" name="mobile" placeholder="enter mobile">   
+            </div>
+            <div class="pass">
+                <label for="password">password</label>
+                <input type="password" name="password" placeholder="password">
+            </div>
+            <div class="cpass">
+                <label for="cpassword">confirm password</label>
+                <input type="password" name="cpassword" placeholder="confirm password">
+            </div>
+            <div class="address">
+                <label for="address" >address</label>
+                <input type="text" name="address" placeholder="address">
+            </div>
+            <div class="photo">
+            <label for="photo">photo</label>
+                upload image:<input type="file" name="photo" placedholder="choose file">
+            </div>
+        
+select your role:<select name="role">
+    <option value="1">voter</option>
+    <option value="2">group</option>
+
+</select>    
+<button>register</button><br>
+already user? <a href="../sheet.html">loginhere</a>
+</form>
+
+</body>
+</html>
